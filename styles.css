@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #396EB0;
+}
+
+
+img {
+
+    width: 200px;
+}
+
+.eyes {
+    position: relative;
+    
+    display: flex;
+
+}
+
+.eyes #eye-right {
+    position: relative;
+    top: -166px;
+    left: 49px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+.eyes #eye-left {
+    position: relative;
+    top: -166px;
+    left: 107px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+
+}
